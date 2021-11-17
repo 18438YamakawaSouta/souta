@@ -5,7 +5,7 @@ import socket
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     #IPアドレスとポートを指定
     s.bind(('0.0.0.0', 50007))
-    #１接続
+    #１接続!
     s.listen(1)
     #connection するまで待つ
     while True:
